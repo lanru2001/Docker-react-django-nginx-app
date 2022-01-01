@@ -7,9 +7,9 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=Openssh!
-      - MYSQL_DATABASE=app_db
+      - MYSQL_DATABASE=django_db
       - MYSQL_USER=root
-      - DATABASE_HOST=db
+      - DATABASE_HOST=django-db-app
     ports:
       - "3306:3306"
     volumes:
