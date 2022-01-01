@@ -81,7 +81,7 @@ DATABASES = {
         "NAME": "django_db",
         "USER": "root",
         "PASSWORD": "Openssh!",
-        "HOST": "127.0.0.1",
+        "HOST": "django-db-app",
         "PORT": "3306",
     }
 }
