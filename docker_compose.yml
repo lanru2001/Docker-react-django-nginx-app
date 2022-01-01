@@ -6,8 +6,8 @@ services:
     command: mysqld --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=<password>
-      - MYSQL_DATABASE=<db>
+      - MYSQL_ROOT_PASSWORD=Openssh!
+      - MYSQL_DATABASE=app_db
       - MYSQL_USER=root
       - DATABASE_HOST=db
     ports:
